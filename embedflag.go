@@ -11,7 +11,5 @@ package gofaiss
 import "C"
 
 import (
-	_ "github.com/cockroachdb/c-lz4"
-	_ "github.com/cockroachdb/c-rocksdb"
-	_ "github.com/cockroachdb/c-snappy"
+	_ "github.com/arjunsk/c-faiss"
 )
