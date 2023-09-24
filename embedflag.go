@@ -1,13 +1,9 @@
-//go:build embed
-// +build embed
-
 package gofaiss
 
+// #cgo CPPFLAGS: -I../../../vendor/github.com/arjunsk/c-faiss/internal/c_api
+// #cgo CPPFLAGS: -I../../../vendor/github.com/arjunsk/c-faiss/internal/faiss
 // #cgo CXXFLAGS: -std=c++11
-// #cgo CPPFLAGS: -I${SRCDIR}/../../arjunsk/c-faiss/internal/c_api
-// #cgo LDFLAGS: -lstdc++
-// #cgo darwin LDFLAGS: -Wl,-undefined -Wl,dynamic_lookup
-// #cgo !darwin LDFLAGS: -Wl,-unresolved-symbols=ignore-all -lrt
+// #cgo LDFLAGS: -lfaiss -lfaiss_c
 import "C"
 
 import (
