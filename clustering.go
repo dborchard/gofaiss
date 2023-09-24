@@ -1,5 +1,12 @@
 package gofaiss
 
+/*
+#include <stdlib.h>
+#include <faiss/c_api/Clustering_c.h>
+#include <faiss/c_api/impl/AuxIndexStructures_c.h>
+#include <faiss/c_api/index_factory_c.h>
+#include <faiss/c_api/error_c.h>
+*/
 import "C"
 import "errors"
 
