@@ -1,7 +1,7 @@
 ### Load latest c-faiss dependency
 
 ```shell
-go install github.com/arjunsk/c-faiss@3e87e98d73b4e340bc4ecf0dadadfa2a53e94820
+go get github.com/arjunsk/c-faiss@16926f4181de2ac8b399e25fdad5a7b164e382cd
 ```
 
 
