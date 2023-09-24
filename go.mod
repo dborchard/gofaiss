@@ -3,7 +3,7 @@ module gofaiss
 go 1.20
 
 require (
-	github.com/arjunsk/c-faiss v0.0.0-20230924072149-e9b1c9314a2a
+	github.com/arjunsk/c-faiss v0.0.0-20230924081821-3e87e98d73b4
 	github.com/stretchr/testify v1.8.4
 )
 

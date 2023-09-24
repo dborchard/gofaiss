@@ -1,5 +1,5 @@
-github.com/arjunsk/c-faiss v0.0.0-20230924072149-e9b1c9314a2a h1:KU5AehBMrzb4DxiSDvXQW+3IKNCfdtN7WxF1CHw48KE=
-github.com/arjunsk/c-faiss v0.0.0-20230924072149-e9b1c9314a2a/go.mod h1:iYmo5rlk8N2v+BLUyQ+iFVrWa1pRRZSjU5OzQ1zaeTU=
+github.com/arjunsk/c-faiss v0.0.0-20230924081821-3e87e98d73b4 h1:1LKLsSuT5neu0iiRvryLtcK/0M1mj5ZcN75mr2J3JKk=
+github.com/arjunsk/c-faiss v0.0.0-20230924081821-3e87e98d73b4/go.mod h1:iYmo5rlk8N2v+BLUyQ+iFVrWa1pRRZSjU5OzQ1zaeTU=
 github.com/davecgh/go-spew v1.1.1 h1:vj9j/u1bqnvCEfJOwUhtlOARqs3+rkHYY13jYWTU97c=
 github.com/davecgh/go-spew v1.1.1/go.mod h1:J7Y8YcW2NihsgmVo/mv3lAwl/skON4iLHjSsI+c5H38=
 github.com/pmezard/go-difflib v1.0.0 h1:4DBwDE0NGyQoBHbLQYPwSUPoCMWR5BEzIk/f1lZbAQM=
