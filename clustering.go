@@ -14,7 +14,7 @@ import "errors"
 type Clustering struct {
 }
 
-func New() *Clustering {
+func NewClustering() *Clustering {
 	return &Clustering{}
 }
 
@@ -49,7 +49,6 @@ func (f *Clustering) ComputeClusters(clusterCnt int64, data [][]float32) (centro
 		(*C.float)(&vectorFlat[0]),    // x training set (size n * d)
 		(*C.float)(&centroidsFlat[0]), // centroids output centroids (size k * d)
 		(*C.float)(&qError),           // q_error final quantization error
-		//@return error code
 	)
 	if c != 0 {
 		return nil, getLastError()
@@ -60,6 +59,7 @@ func (f *Clustering) ComputeClusters(clusterCnt int64, data [][]float32) (centro
 		return nil, errors.New("final quantization error >0")
 	}
 
+	// convert 1D centroidsFlat to 2D centroids
 	centroids = make([][]float32, clusterCnt)
 	for r := int64(0); r < clusterCnt; r++ {
 		centroids[r] = centroidsFlat[r*dims : (r+1)*dims]
